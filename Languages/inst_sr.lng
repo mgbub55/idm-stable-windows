@@ -1,0 +1,100 @@
+﻿instlng=0x1a Serbian
+full_lng=idm_sr.lng
+
+//This template should be used to translate Internet Download Manager installer to foreign languages.
+//All files of installer translations should be named using inst_*.lng name pattern convention. 
+//Please place the abbreviated language name (e.g. de, en, es, fr, etc. :) instead of the asterisk. 
+//For example: inst_de.lng, inst_fr.lng etc.
+ 
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language,
+//ID - hex number that defines Windows API value of the language, it is the same as in the main lng file.
+//The second line "full_lng=idm_*.lng" is the name of your main lng file
+ 
+
+//It's IMPORTANT when a string has any special characters 
+//(%i %s %d %x %ld %I64d %% \r\n), they should all remain in the translated 
+//string and cannot change places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM inserts a number.
+ 
+//The strings beginning with // are comments 
+//and you don't need to translate them and it is better if you delete them
+
+//You can read how to test installer translation on the following page
+// http://www.internetdownloadmanager.com/support/testinsttr.html
+
+20984=Internet Download Manager čarobnjak za instalaciju
+20992=Pročitajte IDM licencu
+20985=Izaberite odredište
+20986=Izaberite grupu menadžera programa
+20987=Počni instalaciju Internet Download Manager-a
+20988=Instaliranje
+20989=Instaliranje je završeno
+20990=Izaberite metod deinstalacije
+20991=Deinstalacija
+20993=Internet Download Manager - brzo ažuriranje
+1050=Dobrodošli u program za instalaciju Internet Download Manager-a. Ovaj program će instalirati Internet Download Manager na vaš računar.
+1053=Potrebno je da zatvorite sve veb pregledače prije pokretanja ove instalacije. Kliknite na Dalje da nastavite instalaciju.
+1054=UPOZORENJE: Ovaj program je zaštićen zakonom o autorskim pravima i međunarodnim ugovorima.
+1055=Neovlašćena reprodukcija ili distribucija ovog programa ili bilo kog njegovog dela može rezultirati ozbiljnim građanskim i krivičnim sankcijama i bićete gonjeni u najvećoj mogućoj meri predviđenoj zakonom.
+1039=Instalacija će instalirati Internet Download Manager u sledeću fasciklu.
+1040=Da instalirate u drugu fasciklu, kliknite na Pregledaj, i izaberite drugu fasciklu.
+1041=Odredišna fascikla
+1016=Pregledaj...
+1044=Unesite ime grupe menadžera programa u koju ćete dodati ikone Internet Download Manager-a:
+1047=Sada te spremni da instalirate Internet Download Manager.\r\n\r\nPritisnite dugme Dalje da počnete instalaciju ili dugme Nazad da promenite informacije instalacije.
+1035=Internet Download Manager je uspešno instaliran.
+1036=Pritisnite dugme Završi da izađete iz ove instalacije.
+1037=Ako želite da IDM presreće vaša preuzimanja odmah nakon instalacije, zatvorite sve veb pregledače prije nastavka. Možete otvoriti vaš pregledač nakon pokretanja IDM.
+1042=Trenutna datoteka
+1038=Kopiranje datoteke:
+1043=Sve datoteke
+108=IDM instalacija
+1059=Instalacija nije završena. Ako sada prekinete instalaciju, Internet Download Manager neće biti instaliran.\r\nMožete pokrenuti ovu instalaciju kasnije kako biste je kompletirali.
+1060=Da nastavite instalaciju, kliknite na Nastavi. Da prekinete instalaciju, kliknite na Izlaz
+1000=Nastavi
+1001=Izlaz
+1015=< Nazad
+1008=Dalje >
+1009=Završi >
+1007=Otkaži
+1058=Dobrodošli u program za deinstalaciju Internet Download Manager-a
+1057=Možete izabrati opciju "Podrazumevano" ili "Sve" da deinstalirate softver
+1027=Podrazumevano
+1028=Sve
+1056=Opcija "Podrazumevano" će obrisati sve izvršne datoteke od IDM, i integraciju IDM u pregledače.
+1061=Opcija "Sve" će dodatno obrisati sva nedovršena preuzimanja, IDM spisak preuzimanja, i ukloniti IDM postavke. Nemojte koristiti opciju "Sve" ako planirate koristiti IDM kasnije, i želite sačuvati vaša preuzimanja i postavke.
+1045=Sada ste spremni da deinstalirate Internet Download Manager iz vašeg sistema.
+1046=Pritisnite dugme Završi da izvršite deinstalaciju. Pritisnite dugme Otkaži da izađete iz deinstalacije.
+1049=Deinstalacija Internet Download Manager-a...
+1048=Uklanjanje datoteke:
+1051=Izaberite jezik za IDM korisnički interfejs (možete ga promeniti kasnije koristeći meni ""Prikaz->Jezik"")
+20957=Došlo je do nepoznate greške pri uklanjanju IDM integracije iz pregledača %s. Možda ćete morati ručno obrisati datoteku %s
+20958=IDM deinstalacija
+20960=Preostalo vreme: %i minuta %i sekundi
+20962=IDM instalacija
+20963=Pažnja
+20964=Ova fascikla sadrži datoteke.\r\nInstalacija u ovu fasciklu može oštetiti postojeće podatke\r\nAko želite da nastavite instalaciju u ovu fasciklu, pritisnite dugme OK\r\nAko želite da izaberete drugu fasciklu za instalaciju, pritisnite dugme OTKAŽI
+20965=IDM instalacijski program mora restartovati vaš računar da zameni/obriše datoteke koje su bile u upotrebi. Pritisnite dugme OK da restartujete vaš računar sada
+20966=Potvrda restartovanja
+20971=Windows neće moći da registruje sve IDM komponente u fascikli\r\n\"%s\".\r\n\r\nIzaberite putanju koja sadrži samo latinične znakove da instalirate IDM
+20972=Ažuriranje IDM mrežnog upravljačkog programa...
+20973=Nemojte otkazati Windows dijalog za kopiranje datoteka
+20974=Došlo je do greške \"Pristup zabranjen\" prilikom kreiranja fascikli u naznačenoj lokaciji! Izaberite drugu putanju za IDM instalaciju ili se prijavite kao administrator.
+20975=%s\r\nNije moguće kreirati fasciklu u naznačenoj lokaciji! Izaberite drugu putanju za IDM instalaciju.
+20976=IDM instalacijski program zahteva oko 10 megabajta prostora na disku. Nema dovoljno slobodnog prostora na disku koji ste izabrali za instalaciju IDM! Oslobodite nešto prostora na disku, ili izaberite drugu putanju za IDM instalaciju.
+20980=Došlo je do greške \"Pristup zabranjen\" prilikom kopiranja glavne izvršne IDM datoteke u naznačenu lokaciju!\r\n\r\nInstalacija se ne može nastaviti. Izaberite drugu putanju za IDM instalaciju ili se prijavite kao administrator.
+20981=IDM instalacijski program nije mogao instalirati jednu ili više povezanih IDM datoteka. Međutim, ovo nije kritična greška, IDM bi trebao da radi, i proces instalacije se može nastaviti. Da li želite da nastavite instalaciju?
+20982=Internet Download Manager je uspešno ažuriran.
+20983=Internet Download Manager je pokrenut.\r\nIzaberite meni \"Zadaci->Izlaz\" (ili \"URL->Izlaz\" za starije verzije) u glavnom prozoru IDM da zatvorite Internet Download Manager prije nastavka.
+//Please change XXX on the language you are translating IDM to
+20994=IDM treba da preuzme glavnu datoteku za prevod na srpski jezik sa IDM početne stranice
+//new v6.17
+1062=Kreiraj ikonu za IDM na desktopu
+//new v6.18b3
+21112=Ako instalirate IDM u izabranu fasciklu, IDM neće moći da se integriše u Internet Explorer sa omogućenom opcijom Poboljšani režim zaštite.\r\n\r\nPotrebno je da instalirate IDM u fasciklu \"%s\".\r\n\r\nDa li želite da promenite instalacijsku fasciklu u \r\n\"%s\"?
+//new v6.25b15
+1063=Prihvatam uslove iz ugovora o licenci
+//new v6.33b3
+20970=Opcije internet protokola su promenjene. Morate restartovati vaš računar, jer internet aplikacije neće ispravno komunicirati sa internetom do tada.\r\n\r\nSačuvajte vaš rad i zatvorite sve aplikacije, računar će se RESTARTOVATI nakon što pritisnite dugme OK.

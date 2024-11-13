@@ -1,0 +1,12 @@
+IDM pøevezme stahování jakéhokoliv prohlížeèe, jehož typ odpovídá seznamu typù/pøípon. Seznam pøípon lze upravit v nabídce "Možnosti - Typy souborù".
+Pokud máte se stahováním souborù ze serveru potíže (pøetížený server, více pøekroèení povoleného èasu, další související potíže na serveru nebo v síti), potom mùžete tento soubor ponechat ve frontì plánovaného stahování a spustit frontu. Plánovaè obnoví stahování každých 30 vteøin.
+IDM pøevezme jakékoliv stahování, jestliže v prohlížeèi pøi klepnutí na odkaz podržíte speciální klávesu podle nastavení. Nastavení zmìníte v Možnosti - Obecné - Klávesy. Pozor: klávesa "Insert" v mnoha prohlížeèích nefunguje.
+IDM nepøevezme stahování souboru a pøenechá jej standardnímu prohlížeèi, když pøi klepnutí na odkaz podržíte klávesu ALT (nebo podle nastavení). Nastavení zmìníte v Možnosti - Obecné - Klávesy.
+Jestliže nìèemu nerozumíte, stiskem klávesy F1 vyvolejte kontextovou nápovìdu (anglicky).
+Nechcete-li, aby IDM pøebíral jakékoliv stahování místo prohlížeèe, vypnìte v nabídce "Možnosti" integraci do prohlížeèe.
+Dialog dokonèeného stahování, který nabízí otevøení souboru, mùžete zrušit odznaèením zatržítka okénka "Zobrazit dokonèení stahování". Dialog je v nabídce "Možnosti - Stahování".
+Dialog zaèátku stahování, který se ptá, kam chcete stahovaný soubor uložit, mùžete zrušit odznaèením okénka vedle textu "Zobrazit zaèátek stahování" (nabídka "Možnosti - Stahování").
+Dialogové okno "Prùbìh stahování" lze minimalizovat nebo zakázat v nabídce "Možnosti - Stahování".
+Stahování souboru mùžete spouštìt z pøíkazové øádky. Další informace mùžete najít v nápovìdì v kapitole "Starting Downloads".
+Soubory mùžete z hlavního okna pøetahovat do jiných aplikací (napøíklad do Winampu, Media Playeru nebo jiných). Z IDM lze také pøesouvat soubory pøetažením nebo nakopírovat do jakýchkoliv složek ve Windows.
+Jestliže nechcete zapisovat stejné jméno a heslo pøi každém stahování z chránìného serveru, lze pøidat server, pøihlašovací jméno (login) a heslo do seznamu hesel v nabídce "Možnosti - Hesla sídel"

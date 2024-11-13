@@ -1,0 +1,100 @@
+instlng=0x0a Spanish
+full_lng=idm_es.lng
+
+//This template should be used to translate Internet Download Manager installer to foreign languages.
+//All files of installer translations should be named using inst_*.lng name pattern convention. 
+//Please place the abbreviated language name (e.g. de, en, es, fr, etc. :) instead of the asterisk. 
+//For example: inst_de.lng, inst_fr.lng etc.
+ 
+//The first string inside the template should be lang=ID Name
+//where Name - the full name of the language,
+//ID - hex number that defines Windows API value of the language, it is the same as in the main lng file.
+//The second line "full_lng=idm_*.lng" is the name of your main lng file
+ 
+
+//It's IMPORTANT when a string has any special characters 
+//(%i %s %d %x %ld %I64d %% \r\n), they should all remain in the translated 
+//string and cannot change places. Remember that IDM inserts dynamic 
+//values instead of these special characters in a predefined order. 
+//Instead of %s IDM inserts a string, %% - %, in all other cases IDM inserts a number.
+ 
+//The strings beginning with // are comments 
+//and you don't need to translate them and it is better if you delete them
+
+//You can read how to test installer translation on the following page
+// http://www.internetdownloadmanager.com/support/testinsttr.html
+
+20984=Asistente de instalación de Internet Download Manager
+20992=Por favor, lee la licencia de IDM
+20985=Elegir ubicación de destino
+20986=Selecciona el grupo de programas
+20987=Comenzar la instalación de Internet Download Manager
+20988=Instalando
+20989=Instalación Completa
+20990=Seleccionar el método de desinstalación
+20991=Realizar desinstalación
+20993=Actualización rápida de Internet Download Manager 
+1050=Bienvenido al programa de instalación de Internet Download Manager. Este programa instalará internet download Manager en tu equipo.
+1053=Es necesario cerrar todos los navegadores antes de ejecutar este asistente de instalación. Haz clic en siguiente para continuar con la instalación.
+1054=ADVERTENCIA: Este programa está protegido por leyes de copyright y tratados internacionales.
+1055=La reproducción o distribución no autorizada de este programa o de cualquier porción de él, puede resultar en severas sanciones civiles y penales, y será perseguidos con el máximo rigor que permita la ley. 
+1039=El programa instalará Internet download manager en la siguiente carpeta.
+1040=Para instalar en una carpeta diferente, haz clic en examinar, y selecciona otra carpeta.
+1041=Carpeta de destino
+1016=Examinar...
+1044=Ingresa el grupo de programas al que agregar los iconos de Internet download manager:
+1047=Ahora estás listo para instalar Internet Download Manager.\r\n\r\nPresiona el botón siguiente para comenzar la instalación, o atrás para cambiar la información de instalación.
+1035=Internet Download Manager Se ha instalado exitosamente.
+1036=Presiona el botón finalizar para salir de este asistente.
+1037=Si quieres que IDM se haga cargo de tus descargas inmediatamente después de la instalación, por favor, cierra todos los navegadores antes de proceder. Puedes abrir tu navegador después de iniciar IDM.
+1042=Archivo actual
+1038=Copiando archivo:
+1043=Todos los archivos
+108=Instalación de IDM
+1059=La instalación no está completa. Si sales del programa de instalación ahora, Internet Download Manager no se instalará.\r\nPuedes ejecutar este asistente más tarde para completar la instalación.
+1060=Para continuar la instalación, haz clic en reanudar. para salir del instalador, haz clic en salir del instalador
+1000=Reanudar
+1001=Salir del instalador
+1015=< Atrás
+1008=Siguiente >
+1009=Finalizar >
+1007=Cancelar
+1058=Bienvenido al programa de desinstalación de Internet Download Manager
+1057=Puedes elegir la opción predeterminada o completa para desinstalar este software
+1027=Predeterminada
+1028=Completa
+1056=La opción predeterminada eliminará todos los ejecutables de IDM, y la integración de éste con los navegadores.
+1061=La instalación completa eliminará además, todas las descargas no finalizadas, Limpiará la lista de descargas de IDM, y quitará las configuraciones. Por favor, no uses la opción completa si tienes pensado usar IDM más tarde, y quieres guardar tus descargas y configuraciones.
+1045=Ahora estás listo para desinstalar Internet Download Manager de tu sistema.
+1046=Presiona el botón finalizar para realizar la desinstalación. Presiona el botón cancelar para salir de la desinstalación.
+1049=Realizando la desinstalación de Internet Download Manager...
+1048=Quitando archivos:
+1051=Por favor selecciona el idioma para la interfaz de usuario de IDM (puedes cambiarlo más tarde usando el elemento de menú ""Ver->Idioma"")
+20957=Se produjo un error desconocido al eliminar la integración de IDM con el navegador %s. puede que sea necesario que elimines el archivo %s manualmente
+20958=Desinstalación de IDM
+20960=Tiempo restante: %i minutos %i segundos
+20962=Instalación de IDM
+20963=Atención
+20964=Esta carpeta contiene archivos.\r\nLa instalación en esta carpeta podría dañar los datos existentes \r\nSi quieres continuar instalando en esta carpeta de todos modos, presiona aceptar\r\nSi quieres elegir otra carpeta para la instalación, presiona Cancelar
+20965=El programa de instalación de IDM debe reiniciar tu equipo para reemplazar archivos que estaban en uso. Presiona el botón aceptar para reiniciar tu equipo ahora
+20966=Confirmar reinicio
+20971=Windows no podrá registrar todos los componentes de IDM en la carpeta \r\n\"%s\".\r\n\r\nPor favor, selecciona una ruta que contenga sólo caracteres latinos para instalar IDM
+20972=Actualizando el controlador de red de IDM...
+20973=No canceles el diálogo de copia de archivos de windows
+20974=¡Error \"Acceso denegado\" mientras se creaba la carpeta en la ubicación especificada! Por favor selecciona otra ruta para instalar IDM inicia sesión como administrador.
+20975=%s\r\nno pudo crear la carpeta en la ubicación especificada! Por favor selecciona otra ruta para instalar IDM.
+20976=El programa de instalación de IDM requiere unos 10 MBytes de espacio en disco. No hay suficiente espacio libre en el disco que has seleccionado para instalar IDM! por favor, libera algo de espacio, o selecciona otra ruta para instalar IDM.
+20980=Error de \"Acceso denegado\" mientras se copiaba el ejecutable principal de IDM en la ubicación especificada!\r\n\r\nLa instalación no puede continuar. Por favor selecciona otra ruta para instalar IDM o inicia sesión como administrador.
+20981=El programa de instalación de IDM no pudo instalar uno o más archivos relacionados. Sin embargo, esto no es un error crítico. IDM debería funcionar, y el proceso de instalación puede continuar. ¿Deseas continuar con la instalación?
+20982=Internet Download Manager Se ha actualizado con éxito.
+20983=Internet Download Manager se está ejecutando.\r\nPor favor selecciona el elemento de menú \"Tareas->Salir\" (o \"URL->Salir\" para versiones antiguas) en la ventana principal de IDM para cerrar Internet Download Manager antes de proceder.
+//Please change XXX on the language you are translating IDM to
+20994=IDM necesita descargar el archivo principal de traducción para el idioma español desde la página de inicio de IDM
+//new v6.17
+1062=Crear un icono para IDM en el escritorio
+//new v6.18b3
+21112=Si instalas IDM en la carpeta seleccionada, IDM no podrá integrarse con internet explorer en el modo protexión reforzada.\r\n\r\nEs necesario instalar IDM en la carpeta \"%s\".\r\n\r\nDeseas cambiar la carpeta de instalación a \r\n\"%s\"?
+//new v6.25b15
+1063=Acepto los términos en el acuerdo de licencia
+//new v6.33b3
+20970=Se han cambiado las opciones de protocolo de internet. Es necesario que reinicies tu equipo, porque las aplicaciones de internet no se comunicarán adecuadamente hasta el reinicio.\r\n\r\nPor favor, guarda tu trabajo y cierra todas las aplicaciones ahora, el equipo se reiniciará luego de que presiones el botón aceptar.
